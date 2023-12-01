@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Начальная страница</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body background="trop.jpg">
+<div class="container">
+    <div class="card">
+        <h2> Заявка:</h2>
+        <form action="https://www.bing.com/" id="UserEnter" name="UserEnter" target="_blank">
+            <p> Введите ваше имя: <input type="Text" name="imya" size=20 value="Илья"></p>
+            <p> Введите вашу фамилию: <input type="Text" name="familiya" size=20 value="Мушаков"></p>
+            <input type="hidden" name="function" value="page">
+            <input type="hidden" name="page_id" value="9">
+            <p>Введите дату, в которую вы хотите к нам прийти: <input type="date" name="data" value='2023-12-01'></p>
+            <p>Напишите количество гостей: <input type="Number" name="gosti" size=20 value="5"></p>
+            <p>Выберите часть дня, в которую в хотите к нам прийти:</p>
+            <p>
+                <input type="Radio" name="utrom" value="vpervie">Утром
+                <input type="Radio" name="dnem" value="periodicheski">Днём
+                <input type="Radio" name="vecherom" value="vpervie"> Вечером
+            </p>
+            <p>Какие у вас есть предпочтения по алкоголю?</p>
+            <p>
+                <input type="Checkbox" name="abcent" value="0">Абсент
+                <input type="Checkbox" name="vodka" value="0"> Водка
+                <input type="Checkbox" name="viski" value="0"> Виски </p>
+            <p>
+                <input type="Checkbox" name="vino" value="0"> Вино
+                <input type="Checkbox" name="jin" value="0"> Джин
+                <input type="Checkbox" name="tekila" value="0"> Текила</p>
+            <p>
+                <input type="Checkbox" name="rom" value="0">Ром
+                <input type="Checkbox" name="sambuka" value="0"> Самбука
+                <input type="Checkbox" name="shampanskoe" value="0"> Шампанское</p>
+
+
+            </p>
+            <input type="Submit" name="submit" value="Отправить">
+        </form>
+    </div>
+</div>
+</body>
